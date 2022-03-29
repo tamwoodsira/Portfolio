@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+
+/* Media Query */
+@media (min-width: 300px) {
+
+    body {
+        background-color: rgb(230, 230, 230);
+    }
+
+    .contact [type="text"], [type="email"], textarea {
+        width: 95%;
+        padding: 2%;
+    }
+
+    .footer {
+        background-color: navy;
+        color: white;
+        padding: 8%;
+        text-align: center;
+    }
+
+    .footer > span {
+        font-weight: bolder;
+    }
+
+}
+
+/*
+1 - Plan the sections from your page
+    a) Footer
+    b) Contact
+    c) Education
+    d) Skills
+    e) Projects
+    f) About
+    g) Header
+*/
