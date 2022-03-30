@@ -11,12 +11,85 @@
 @media (min-width: 300px) {
 
     body {
-        background-color: rgb(230, 230, 230);
+        padding: 3%;
+    }
+
+    /* to mke a space between each section */
+    section {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    section h2 {
+        width: 90%;
+        color: navy;
+        font-size: 40px;
+        font-weight: bold;
+        border-bottom: 2px solid navy;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh; /* to seperate the top-bottom gap between the div of school */
+    }
+
+    /* no need to type over & over in other asides */
+    .education aside {
+        width: 50vh;
+        height: 15vh;
+    }
+    
+    #tamwood-card > aside {
+        background: url(/image/Tamwood.png);  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #chula-card > aside {
+        background: url(/image/Chula.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #seoul-card > aside {
+        background: url(/image/Seoul.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #unam-card > aside {
+        background: url(/image/Unam.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .card {
+        align-items: center; /* align in X axis*/
+        padding: 2%;
+    }
+
+    .btn {
+        color: white;
+        font-weight: 600;
+        background-color: navy;
+    }
+
+    .btn:hover {
+        background-color: steelblue;
     }
 
     .contact [type="text"], [type="email"], textarea {
         width: 95%;
         padding: 2%;
+    }
+
+    .contact > form > [class="d-flex"] {
+        justify-content: space-evenly;
     }
 
     .footer {
