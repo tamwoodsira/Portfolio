@@ -28,6 +28,46 @@
         border-bottom: 2px solid navy;
     }
 
+    .skills {
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+    }
+
+    /* It should be an id for this one, be careful */
+    #skills > div > aside {
+        width: 18vh;
+        height: 20vh;
+        padding: 15%;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .skills > p {
+        padding: 10% 3% 10% 3%;
+    }
+
+    #html5 > aside {
+        background: url(/image/html.png);
+        
+    }
+
+    #css > aside {
+        background: url(/image/css.PNG);
+    }
+
+    /*
+    #css {
+        flex-direction: row-reverse;
+    }
+    */
+
+    #javascript > aside {
+        background: url(/image/javascript.png);
+    }
+
     .education {
         display: flex;
         flex-direction: column;
