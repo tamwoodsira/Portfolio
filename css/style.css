@@ -21,7 +21,7 @@
     }
 
     section h2 {
-        width: 90%;
+        width: 100%;
         color: navy;
         font-size: 40px;
         font-weight: bold;
@@ -51,7 +51,26 @@
 
     #html5 > aside {
         background: url(/image/html.png);
-        
+    }
+
+    #projectone p, #projecttwo p, #projectthree p {
+        text-align: justify; /* space is added between words so that both edges of each line are aligned with both margins*/
+        line-height: 2;
+    }
+
+    #projectone > div > aside, #projecttwo > div > aside, #projectthree > div > aside {
+        float: left;
+        margin-right: 5%;
+        width: 15vh;
+        height: 15vh;
+        padding: 20%;
+        color: white;
+        font-weight: 600;
+        background-color: grey;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #css > aside {
